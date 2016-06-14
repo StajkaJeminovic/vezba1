@@ -1,0 +1,345 @@
+body{
+ margin: 0px;
+ height: auto;
+}
+
+
+a{
+	text-decoration: none;
+	cursor: pointer ;
+
+}
+header{
+	width: 1440px;
+	background: url("img/slika1.jpg") fixed 100%; 
+	height: 650px;
+	position:relative;
+}
+#unutrasnji{
+	background-color: transparent;
+	width: 100%;
+	height: 650px;
+}
+nav{
+
+	color: #ffffff;
+		
+
+}
+div#logo{
+	display: inline-block;
+	float: left;
+} 
+
+ul{
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+ul li{
+	float: left;
+	display: inline-block;
+	margin: 20px;
+
+}
+
+nav ul {
+	float: right;
+
+}
+
+nav ul li{
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+
+nav ul li a:link{
+
+}
+
+nav ul li a:hover, a:visited{
+
+}
+
+#navigacija{
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    width: inherit;
+}
+
+#mainNav{
+	margin: 10px 250px;
+}
+
+
+#baner{
+	position: absolute;
+	bottom: 300px;
+	right: 300px;
+	z-index: 1;
+		background-color: transparent;
+
+	}
+
+.posts{
+	width: 900px;
+	float: left;
+	display: inline-block;
+	padding: 30px 10px;
+
+}
+
+.datum{
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	padding: 5px 10px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family: Verdana;
+	display: inline-block;
+	float: left;
+}
+
+.post p, .post  h2{
+	display: inline-block;
+	margin: 0;
+}
+
+#social{
+	display: inline;
+	float: right;
+}
+	#brojevi{
+		margin: 0 auto;
+		position: relative;
+		width: 200px;
+	}
+
+	.broj{
+		border: 1px solid grey;
+		height: 20px;
+		width: 20px;
+		margin: 5px;
+		display: inline-block;
+		float: left;
+	}
+
+
+	/*ovde pocinje kod za aside*/
+
+
+	aside{
+		width: 240px;
+		float: left;
+		margin: 10px;
+	}
+
+	.wpost >img, .obja{
+		float: left;
+		display: inline-block;
+		padding: 10px;
+		margin: 0;
+	}
+	.obja p, .obja h4{
+		margin: 0 10px;
+		padding: 5px;
+	}
+	
+
+	#widget-posts img{
+		border-radius: 50%;
+	}
+
+	#forma{
+		clear: both;
+		position: relative;
+	}
+	form{
+
+		border: 2px solid red;
+		width: 250px;
+		height: 50px;
+	}
+
+	input{
+		border: none;
+	}
+
+
+	ul {
+		text-decoration: none;
+}
+
+#cat select{
+	border: 2px solid #1e1e1e;
+	width: 200px;
+	height: 50px;
+	padding: 10px 30px;
+}
+
+#arhiva ul li{
+	padding: 1px 4px;
+	margin: 0;
+}
+
+ h3{
+	margin: 10px auto;
+	padding:0 20px;
+}
+
+#arhiva ul{
+	width: 100px;
+	margin: 5px;
+}
+
+/*Ovde se zavrsava aside*/
+
+#fanfacts{
+	clear: both;
+	position: relative;
+}
+
+.funf{
+	width: 440px;
+	display: inline-block;
+	float: left;
+	height:250px;
+	border:1px solid black;
+
+}
+
+#fejs{
+	background-color: #3b5998;
+}
+.funf>div{
+	margin: 50px auto;
+	width: 10px;
+	color: white;
+	text-align: center;
+}
+
+#fejs strong{
+	font-size: 40px;
+	
+	font-family: 'Lato', 'Belgrano', sans-serif;
+	
+}
+}
+
+#fejs p{
+	font-family: ;
+	font-size: 20px;
+}
+
+
+#fejs:hover{
+	background-color: #3b5998;
+}
+
+#twiter{
+	background-color: #00bdec;
+
+}
+
+
+#fans{
+	background-color: #e45c8f;
+}
+
+
+
+
+/*ovde pocinje footer*/
+footer{
+	clear: both;
+}
+#footerg {
+	width: 100%;
+	background-color: #1e1e1e;
+	height: 500px;
+}
+
+#footerg a, h4{
+	color: #98a0a8;
+}
+
+#footerg a:hover, h4:hover{
+	color: #4d4d4d;
+}
+
+#footerg article{
+ width: 300px;
+ float: left;
+ display: inline-block;
+ background-color: transparent;
+ 
+}
+
+
+#footerg article:first-child{width: 200px;}
+
+footer ul li{
+	display: block;
+}
+
+ul#tag_clouds li{
+	border-radius: 5px;
+	background-color: grey;
+	color: white;
+	padding: 2px 6px;
+}
+
+ul#tag_clouds li:hover{
+	background-color: #4d4d4d;
+}
+
+ul#tag_clouds li a, ul#tag_clouds li a:hover{
+	color: white;
+}
+
+
+#footerd{
+	clear: both;
+	background-color: #282a2e;
+}
+
+#footerd a{
+	color:red;
+}
+
+#copyrights{
+	float: right;
+	color: white;
+	margin: 35px 60px;
+}
+
+#nav{
+	width: 400px;
+	display: inline-block;
+}
+
+#scroll-to-top{
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	float: right;
+	width: 50px;
+	height: 50px;
+	background-color: #e74c3c;
+	color:white;
+	margin: 30px 40px;
+	opacity: 0.4;
+	display: none;
+}
+
+#scroll-to-top:hover{
+	opacity: 1;
+}
